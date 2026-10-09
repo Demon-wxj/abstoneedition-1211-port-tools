@@ -1,6 +1,5 @@
-# 使用迁移工具
+# 使用迁移结果
 
-按 BUILDING.md 提供合法输入，检查生成资源。此仓库没有可直接装入 mods 的 JAR。
+按 [迁移与检查](BUILDING.md) 准备合法输入并运行脚本。结果在 `output/resources/`，仓库没有可直接放入 `mods/` 的 JAR。
 
-原目标环境为 Minecraft 1.21.1 / Fabric / Java 21；对应原 Mod ID 为 `abstoneedition`。
-上游源码、美术和编译需要用户自行取得并核实授权；工具输出不能自动作为公开发行包。
+这些资源面向 **Minecraft 1.21.1 / Fabric / Java 21**，Mod ID 为 `abstoneedition`。完整 Mod 的源码、美术和构建方式需自行取得并核实授权；迁移输出也不能直接视为已获授权的发行包。
